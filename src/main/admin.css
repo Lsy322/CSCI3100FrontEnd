@@ -1,0 +1,13 @@
+/* .page-styling{
+    background-color: #faf0e5;
+} */
+
+.online-status {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  border: 3px solid white;
+  bottom: 5%;
+  right: 5%;
+  position: absolute;
+}

@@ -1,0 +1,70 @@
+.header {
+  height: 50px;
+  background-image: linear-gradient(to right, #567ace, #b9281d);
+}
+
+.stickyBar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  min-width: 100vw;
+}
+
+a.header-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200%;
+  color: #ffffff;
+  padding: 7px 5px;
+  text-decoration: none;
+}
+
+.points {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 0.75vw 0 0 0;
+  text-align: right;
+}
+
+.headerpadding {
+  padding: 8px 2px;
+}
+
+a.header-title:link {
+  display: inline;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+a.header-title:hover {
+  display: inline;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.notiTime {
+  color: #6b6a6a;
+  font-size: 3px;
+}
+
+.noti-Title {
+  text-align: center;
+  color: rgb(78, 177, 235);
+  font-weight: bold;
+  border-bottom: 1px solid #aaa;
+  border-top: 1px solid #aaa;
+}
+
+.rightpadding {
+  padding-right: 5px;
+}
+
+.NotiItem {
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
