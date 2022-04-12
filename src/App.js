@@ -42,7 +42,7 @@ function App() {
   useEffect(() => {
     if (token != null) {
       setSocket(
-        io("https://csci3100takeiteasy.herokuapp.com", {
+        io("https://csci3100takeiteasy.herokuapp.com:8080", {
           query: { token },
         })
       );
